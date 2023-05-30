@@ -7,3 +7,6 @@
     font-size: medium;
     font-weight: bold;
 }
+p[draggable=true]{
+    font-size: large;
+}
