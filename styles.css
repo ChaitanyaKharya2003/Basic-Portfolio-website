@@ -1,12 +1,82 @@
-#header{
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
+#header {
+  position: relative;
+  left: 30%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
 }
-#footer{
-    font-family: 'Times New Roman', Times, serif;
-    font-size: medium;
-    font-weight: bold;
+.box {
+  position: relative;
+  left: 40%;
+  padding: 20px;
 }
-p[draggable=true]{
-    font-size: large;
+#footer {
+  position: absolute;
+  left: center;
+
+  font-family: "Times New Roman", Times, serif;
+  font-size: medium;
+  font-weight: bold;
+}
+p[draggable="true"] {
+  font-size: large;
+}
+li.done {
+  color: seagreen;
+}
+
+.box ul p.done {
+  size: 20px;
+  color: seagreen;
+}
+
+.flag {
+  height: 300px;
+  width: 500px;
+  position: relative;
+  left: 20%;
+  top: 30%;
+  border: 2px solid black;
+  margin: 20px;
+}
+.flag .saffron {
+  background-color: #ff9933;
+  height: 100px;
+  width: 500px;
+  position: relative;
+  top: 0px;
+  z-index: 1;
+}
+.flag .white {
+  background-color: white;
+  height: 100px;
+  width: 500px;
+  position: relative;
+  top: 0px;
+  z-index: 1;
+}
+.flag .green {
+  background-color: green;
+  height: 100px;
+  width: 500px;
+  position: relative;
+  top: 0px;
+  z-index: 1;
+}
+.wheel {
+  position: relative;
+  left: 40%;
+  top: 2px;
+  height: 90px;
+  width: 90px;
+  border: 3px solid blue;
+  border-radius: 50%;
+  z-index: 2;
+}
+.spoke {
+  position: relative;
+  border-bottom: 2px solid blue;
+  z-index: 3;
+  /* left: 49%; */
+  /* height: 100px;
+  width: 3px; */
 }
