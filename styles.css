@@ -13,16 +13,17 @@
 #footer {
   position: fixed;
   top: 95%;
-  /* left: 0%; */
-  background-color: white;
+  left: 0%;
+  background-color: black;
   display: block;
   /* border: 2px solid black; */
-  width: 1550px;
+  /* width: 1550px; */
   padding: 10px; 
   /* margin: 20px; */
-  font-family: "Times New Roman", Times, serif;
-  font-size: medium;
-  font-weight: bold;
+  /* font-family: "Times New Roman", Times, serif;
+  font-size: large;
+  font-weight: bold; */
+  float: right;
 }
 p[draggable="true"] {
   font-size: large;
